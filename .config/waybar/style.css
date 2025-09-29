@@ -1,0 +1,69 @@
+/* ---- Base Waybar Style ---- */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: JetBrains Mono Nerd Font;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(26, 27, 38, 0.8);
+    color: #cdd6f4;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* ---- Each Module ---- */
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray {
+    padding: 0 10px;
+    margin: 3px 0px;
+}
+
+/* ---- Workspaces ---- */
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #cdd6f4;
+    border-radius: 3px;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+    background-color: #64727D;
+    color: #000;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+/* ---- Other Modules ---- */
+#clock {
+    font-weight: bold;
+}
+
+#pulseaudio {
+    color: #94e2d5;
+}
+
+#network {
+    color: #89b4fa;
+}
+
+#cpu {
+    color: #f9e2af;
+}
+
+#memory {
+    color: #a6e3a1;
+}
