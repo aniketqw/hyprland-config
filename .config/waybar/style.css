@@ -47,6 +47,15 @@ window#waybar {
     background-color: #eb4d4b;
 }
 
+/* --- THIS IS THE NEW SECTION --- */
+#workspaces button.special {
+    background-color: #fab387; /* A distinct orange color */
+    color: #1e1e2e;
+    padding: 0 8px;
+}
+/* --- END OF NEW SECTION --- */
+
+
 /* ---- Other Modules ---- */
 #clock {
     font-weight: bold;
